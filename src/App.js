@@ -6,8 +6,8 @@ import Profile from "./Components/Profile/Profile";
 
 function App() {
   return (
-    <BrowserRouter>
-      <Routes>
+    <BrowserRouter >
+      <Routes >
         <Route path="/" element={<Home />}>
           {/* Extra Paths Here */}
         </Route>
