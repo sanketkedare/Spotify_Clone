@@ -6,7 +6,7 @@ import 'react-toastify/dist/ReactToastify.css';
 const Wrapper = ({children}) => {
   return (
     <>
-        <div className="h-[60px]"></div>
+        {/* <div className="h-[60px]"></div> */}
         <ToastContainer/>
         <div>
              {children} 

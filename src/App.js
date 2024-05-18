@@ -6,6 +6,7 @@ import Profile from "./Components/Profile/Profile";
 import SignUp from "./Components/pages/SignUp";
 import Login from "./Components/pages/Login";
 import Wrapper from "./Components/Wrapper";
+import Search from "./Components/Search/Search";
 
 function App() {
   return (
@@ -13,8 +14,8 @@ function App() {
     <BrowserRouter >
       <Routes >
         <Route path="/" element={<Home />}>
-          {/* Extra Paths Here */}
         </Route>
+        <Route path="/search" element = {<Search/>}/>
         <Route path="/signup" element={<SignUp/>} />
         <Route path="/login" element={<Login/>} />
         <Route path="/auth" element={<Authentication />} />
