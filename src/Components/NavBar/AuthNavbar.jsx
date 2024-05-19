@@ -1,4 +1,5 @@
-// import React from 'react'
+import React from 'react'
+import { Link } from "react-router-dom";
 
 const AuthNavbar = () => {
     return (
@@ -10,7 +11,7 @@ const AuthNavbar = () => {
               </div>
   
               <div className=''>
-                  Already Registered? <span className='text-blue-400 font-bold'>Login</span> Here
+                  Already Registered? <Link to="/login"><span className='text-blue-400 font-bold'>Login</span> </Link> Here
               </div>
           </div>
             

@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Advertisement = () => {
   return (
@@ -11,9 +12,11 @@ const Advertisement = () => {
             credit card needed.
           </h1>
         </div>
+        <Link to="/signup">
         <button className="p-2 px-3 m-5 bg-white text-black rounded-xl font-bold">
           Sign up free
         </button>
+        </Link>
       </div>
     </div>
   );
