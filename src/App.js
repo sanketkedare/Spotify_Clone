@@ -8,6 +8,8 @@ import Login from "./Components/pages/Login";
 import Wrapper from "./Components/Wrapper";
 import Search from "./Components/Search/Search";
 import PopularArtist from "./Components/pages/PopularArtist";
+import PlayList from "./Components/pages/PlayList";
+import Album from "./Components/pages/Album";
 
 function App() {
   return (
@@ -20,6 +22,8 @@ function App() {
         <Route path="/signup" element={<SignUp/>} />
         <Route path="/login" element={<Login/>} />
         <Route path="popularartist" element={<PopularArtist/>} />
+        <Route path="/playlist" element={<PlayList/>} />
+        <Route path="/album" element={<Album/>} />
         <Route path="/auth" element={<Authentication />} />
         <Route path="/user" element={<Profile />} />
       </Routes>

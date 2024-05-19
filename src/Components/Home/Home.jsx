@@ -6,6 +6,8 @@ import AuthNavbar from "../NavBar/AuthNavbar";
 import { useState } from "react";
 import { fetchPodcastEpisodes } from "../../Utils/getPodcast";
 import PopularArtist from "../pages/PopularArtist";
+import PlayList from "../pages/PlayList";
+import Album from '../pages/Album';
 
 const Home = () => {
   const [user, setuser] = useState(false);
@@ -19,6 +21,8 @@ const Home = () => {
       </div>
       <div className="w-[3/4]">
       <PopularArtist/>
+      <PlayList/>
+      <Album/>
       </div>
     </div>
   );
