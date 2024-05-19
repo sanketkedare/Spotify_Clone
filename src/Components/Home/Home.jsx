@@ -4,6 +4,7 @@ import PlayBar from "./PlayBar.jsx/PlayBar";
 import Navbar from "../NavBar/Navbar";
 import AuthNavbar from "../NavBar/AuthNavbar";
 import { useState } from "react";
+import { fetchPodcastEpisodes } from "../../Utils/getPodcast";
 
 const Home = () => {
   const [user, setuser] = useState(false);

@@ -2,8 +2,10 @@ import React from "react";
 import SideBar from "../Home/SideBar/SideBar";
 import PlayBar from "../Home/PlayBar.jsx/PlayBar";
 import Header from "./Header";
+import { getMetaData } from "../../Utils/getMetaData";
 
 const Search = () => {
+  getMetaData()
   return (
     <>
       <SideBar />
