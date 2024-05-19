@@ -16,10 +16,9 @@ const Navbar = () => {
 
   <div className="flex"> 
   
-    {/* <Link to="/sign-up"> <button className="bg-white text-black py-1 px-3 rounded-md mr-4">SignUp</button> </Link> 
-    <Link to="/login"> <button className="bg-white text-black py-1 px-3 rounded-md">Login</button> </Link>  */}
-     <Button primaryColor={"white"} >SignUp</Button>
-     <Button primaryColor={"white"} backgroundColor={"white"} borderColor={"white"} className="bold">Login</Button>
+    <Link to="/signup"> <Button primaryColor={"white"} className="bg-white text-black py-1 px-3 rounded-md">SignUp</Button> </Link> 
+    <Link to="/login"> <button className="bg-white text-black py-1 px-3 rounded-md">Login</button> </Link> 
+     
 
   </div> 
  </div> 
